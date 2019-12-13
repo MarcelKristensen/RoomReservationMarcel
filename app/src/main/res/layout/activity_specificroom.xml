@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpecificRoomActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:id="@+id/LL">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:navigationIcon="?homeAsUpIndicator" />
+    <TextView
+        android:id="@+id/RoomName"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/RoomDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RoomName"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/RoomCap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RoomDesc"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/RoomRemarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RoomCap"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/RoomReservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RoomRemarks"
+        android:text="Room resevations:"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/forFailure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/reserveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="MakeReservationClick"
+        android:visibility="invisible"
+        android:text="Create reservation" />
+
+    <ListView
+        android:id="@+id/ReservationsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RoomReservation" />
+
+</RelativeLayout>

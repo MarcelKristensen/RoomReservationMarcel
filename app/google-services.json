@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "600019872198",
+    "firebase_url": "https://mobiledevelopmentfirebase.firebaseio.com",
+    "project_id": "mobiledevelopmentfirebase",
+    "storage_bucket": "mobiledevelopmentfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600019872198:android:35f62eeb250129e4456ac7",
+        "android_client_info": {
+          "package_name": "com.example.roomregistration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600019872198-5a39nmlgih4h8sodjhjkjvagdif8bakf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roomregistration",
+            "certificate_hash": "62ee5d3edca347b6c9195b49f2de89de9f6af450"
+          }
+        },
+        {
+          "client_id": "600019872198-87ck2tm7clt18rs2ls94sr5hbar9smir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0O2HB0fRy4b4iusKU3OEiOqi-j4UafXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600019872198-87ck2tm7clt18rs2ls94sr5hbar9smir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600019872198:android:c96aa893523f90ae456ac7",
+        "android_client_info": {
+          "package_name": "com.example.roomreservationmarcel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600019872198-agr5tf571h72gdm1ik9tpcq3mi75r4n6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roomreservationmarcel",
+            "certificate_hash": "3517d8f177e534d07bf8c5565c3baa028c71c711"
+          }
+        },
+        {
+          "client_id": "600019872198-87ck2tm7clt18rs2ls94sr5hbar9smir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0O2HB0fRy4b4iusKU3OEiOqi-j4UafXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600019872198-87ck2tm7clt18rs2ls94sr5hbar9smir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600019872198:android:c8d2b0516180d20b456ac7",
+        "android_client_info": {
+          "package_name": "com.example.roomreservationproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600019872198-nrv37qrgc6hibv02f9qfo8vtu9n9beqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roomreservationproject",
+            "certificate_hash": "3517d8f177e534d07bf8c5565c3baa028c71c711"
+          }
+        },
+        {
+          "client_id": "600019872198-87ck2tm7clt18rs2ls94sr5hbar9smir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0O2HB0fRy4b4iusKU3OEiOqi-j4UafXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600019872198-87ck2tm7clt18rs2ls94sr5hbar9smir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

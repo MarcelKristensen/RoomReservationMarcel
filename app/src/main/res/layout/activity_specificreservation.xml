@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SpecificReservationActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:navigationIcon="?homeAsUpIndicator" />
+
+    <TextView
+        android:id="@+id/ReservationPurpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ReservationFromTime"
+        android:layout_below="@id/ReservationPurpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ReservationToTime"
+        android:layout_below="@id/ReservationFromTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ReservationRoomName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ReservationToTime"
+        android:layout_gravity="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ReservationRoomSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ReservationRoomName"
+        android:layout_gravity="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/ReservationRoomSize"
+        android:onClick="DeleteReservation"
+        android:text="Delete" />
+
+    <TextView
+        android:id="@+id/onDeleteFailure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ReservationRoomSize"
+        android:layout_gravity="center"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
